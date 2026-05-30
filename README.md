@@ -1,9 +1,9 @@
 ## PPE-detection-kit: YOLOv11 PPE Detection Dashboard
 
-![Python](https://img.shields.io/badge/Python 3.8+ blue.svg)
-![YOLOv11](https://img.shields.io/badge/YOLOv11 Ultralytics orange.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit UI red.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV 4.x green.svg)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![YOLOv11](https://img.shields.io/badge/YOLOv11-Ultralytics-orange.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-Enabled-red.svg)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)
 
 PPE-detection-kit is a realtime computer vision system designed to monitor construction environments and ensure compliance with safety regulations. Powered by **YOLOv11** and wrapped in a responsive **Streamlit** dashboard, it actively detects whether personnel are wearing mandatory Personal Protective Equipment (PPE) such as hardhats and high visibility vests.
 

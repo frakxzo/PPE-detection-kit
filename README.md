@@ -1,4 +1,4 @@
-# PPE-detection-kit: YOLOv11 PPE Detection Dashboard
+## PPE-detection-kit: YOLOv11 PPE Detection Dashboard
 
 ![Python](https://img.shields.io/badge/Python 3.8+ blue.svg)
 ![YOLOv11](https://img.shields.io/badge/YOLOv11 Ultralytics orange.svg)

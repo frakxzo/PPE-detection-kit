@@ -44,7 +44,7 @@ Ensure you have Python 3.8+ installed. If you intend to run inference on a GPU f
 
 To launch the interactive dashboard, use the Streamlit CLI command in your terminal:
 
-    **streamlit run dashboard.py**
+  **streamlit run dashboard.py**
 
 Once the local server starts, your web browser will automatically open the dashboard. Use the Navigator in the sidebar to toggle between the Admin View and the Live Site Monitor, and click START SYSTEM to initialize the camera feed.
 

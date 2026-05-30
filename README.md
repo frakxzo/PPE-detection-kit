@@ -1,19 +1,19 @@
 # PPE-detection-kit: YOLOv11 PPE Detection Dashboard
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![YOLOv11](https://img.shields.io/badge/YOLOv11-Ultralytics-orange.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-UI-red.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)
+![Python](https://img.shields.io/badge/Python 3.8+ blue.svg)
+![YOLOv11](https://img.shields.io/badge/YOLOv11 Ultralytics orange.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit UI red.svg)
+![OpenCV](https://img.shields.io/badge/OpenCV 4.x green.svg)
 
-PPE-detection-kit is a real-time computer vision system designed to monitor construction environments and ensure compliance with safety regulations. Powered by **YOLOv11** and wrapped in a responsive **Streamlit** dashboard, it actively detects whether personnel are wearing mandatory Personal Protective Equipment (PPE) such as hardhats and high-visibility vests.
+PPE-detection-kit is a realtime computer vision system designed to monitor construction environments and ensure compliance with safety regulations. Powered by **YOLOv11** and wrapped in a responsive **Streamlit** dashboard, it actively detects whether personnel are wearing mandatory Personal Protective Equipment (PPE) such as hardhats and high visibility vests.
 
 ## ✨ Features
 
-* **Interactive Admin Dashboard:** A complete Streamlit web UI featuring dual-mode viewing (Admin Dashboard and Full-Screen Site View).
+* **Interactive Admin Dashboard:** A complete Streamlit web UI featuring dual mode viewing (Admin Dashboard and Full Screen Site View).
 * **Live Violation Logging:** Automatically captures snapshots of safety violations (e.g., missing hardhats) and queues them in a verification sidebar for admin review.
 * **Smart Filtering:** Utilizes distinct confidence thresholds for standard detections versus violations to minimize false alarms on the job site.
 * **Dynamic Sensitivity:** Adjust the model's confidence threshold on the fly using the dashboard slider without restarting the system.
-* **High-Speed Object Detection:** Utilizes YOLOv11 for rapid, high-accuracy inference on live camera feeds.
+* **HighSpeed Object Detection:** Utilizes YOLOv11 for rapid, high accuracy inference on live camera feeds.
 
 ## 🛠️ Prerequisites
 
@@ -27,17 +27,17 @@ Ensure you have Python 3.8+ installed. If you intend to run inference on a GPU f
 
    ***git clone [https://github.com/frakxzo/PPE-detection-kit.git](https://github.com/frakxzo/PPE-detection-kit.git)***
 
-   ***cd PPE-detection-kit***
+   ***cd PPE detection kit***
 
 2. **Install the required dependencies--->**
 
     <ins>cmd/bash:</ins>
 
-   ***pip install -r requirements.txt*** 
+   ***pip install  r requirements.txt*** 
 
-3. **Model Weights:**
+3. **Model Weights--->**
     
-    <ins>Ensure your custom-trained YOLOv11 weights file (best.pt) is placed in the root directory before running the application.</ins>
+    <ins>Ensure your custom trained YOLOv11 weights file (best.pt) is placed in the root directory before running the application.</ins>
 
 
 ## 🎮 Usage Guide
@@ -51,11 +51,11 @@ Once the local server starts, your web browser will automatically open the dashb
 
 ## 🗺️ Roadmap & Future Development
 
-**Multi-Camera Integration:** Expanding the video capture logic to process parallel RTSP streams from multiple IP cameras simultaneously.
+**Multi Camera Integration:** Expanding the video capture logic to process parallel RTSP streams from multiple IP cameras simultaneously.
 
 **UI Enhancements:** Refining the Streamlit layout for better mobile responsiveness and optimizing the verification queue rendering.
 
-**Database Integration:** Moving the session-state alert logging to a persistent SQLite or PostgreSQL database for long-term compliance tracking.
+**Database Integration:** Moving the session state alert logging to a persistent SQLite or PostgreSQL database for long term compliance tracking.
       
 
 

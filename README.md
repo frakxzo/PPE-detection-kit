@@ -8,12 +8,11 @@
 PPE-detection-kit is a realtime computer vision system designed to monitor construction environments and ensure compliance with safety regulations. Powered by **YOLOv11** and wrapped in a responsive **Streamlit** dashboard, it actively detects whether personnel are wearing mandatory Personal Protective Equipment (PPE) such as hardhats and high visibility vests.
 
 ## ✨ Features
-
-* **Interactive Admin Dashboard:** A complete Streamlit web UI featuring dual mode viewing (Admin Dashboard and Full Screen Site View).
-* **Live Violation Logging:** Automatically captures snapshots of safety violations (e.g., missing hardhats) and queues them in a verification sidebar for admin review.
-* **Smart Filtering:** Utilizes distinct confidence thresholds for standard detections versus violations to minimize false alarms on the job site.
-* **Dynamic Sensitivity:** Adjust the model's confidence threshold on the fly using the dashboard slider without restarting the system.
-* **HighSpeed Object Detection:** Utilizes YOLOv11 for rapid, high accuracy inference on live camera feeds.
+Interactive Admin Dashboard: A full-featured Streamlit web app that gives you two ways to view things — a detailed Admin Dashboard and a clean, Full Screen Site View.
+Live Violation Logging: Whenever a safety violation is spotted (like someone missing a hardhat), the system automatically grabs a snapshot and drops it into a verification sidebar so an admin can review it.
+Smart Filtering: Instead of using one blanket confidence level, the system applies separate thresholds for regular detections and actual violations — this helps cut down on false alarms out on site.
+Dynamic Sensitivity: Need to fine-tune things? Just drag the slider on the dashboard to adjust the model's confidence threshold in real time — no restart required.
+High-Speed Object Detection: Powered by YOLOv11, the system delivers fast, accurate detections straight from live camera feeds.
 
 ## 🛠️ Prerequisites
 

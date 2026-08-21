@@ -24,7 +24,7 @@ Ensure you have Python 3.8+ installed. If you intend to run inference on a GPU f
 
     <ins>cmd/bash:</ins>
 ```bash
-   git clone [https://github.com/frakxzo/PPE-detection-kit.git](https://github.com/frakxzo/PPE-detection-kit.git)
+   git clone https://github.com/frakxzo/PPE-detection-kit.git
 
   cd PPE detection kit
 ```

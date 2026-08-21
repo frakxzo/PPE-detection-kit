@@ -23,17 +23,17 @@ Ensure you have Python 3.8+ installed. If you intend to run inference on a GPU f
 1. **Clone the repository--->**
 
     <ins>cmd/bash:</ins>
-
+```bash
    ***git clone [https://github.com/frakxzo/PPE-detection-kit.git](https://github.com/frakxzo/PPE-detection-kit.git)***
 
    ***cd PPE detection kit***
-
+```
 2. **Install the required dependencies--->**
-
+```bash
     <ins>cmd/bash:</ins>
 
    ***pip install  r requirements.txt*** 
-
+```
 3. **Model Weights--->**
     
     <ins>Ensure your custom trained YOLOv11 weights file (best.pt) is placed in the root directory before running the application.</ins>
@@ -42,9 +42,9 @@ Ensure you have Python 3.8+ installed. If you intend to run inference on a GPU f
 ## 🎮 Usage Guide
 
 To launch the interactive dashboard, use the Streamlit CLI command in your terminal:
-
+```bash
   **streamlit run dashboard.py**
-
+```
 Once the local server starts, your web browser will automatically open the dashboard. Use the Navigator in the sidebar to toggle between the Admin View and the Live Site Monitor, and click START SYSTEM to initialize the camera feed.
 
 
